@@ -9,16 +9,209 @@
         <title>Koala</title>
         <link rel="icon" href="images/logo.png">        
         <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Awesome -->        
-        <link rel="stylesheet" href="css/custom.css"> <!-- Custom Style -->        
+        <link rel="stylesheet" href="css/base.css"> <!-- Base Freamwork -->
+        <link rel="stylesheet" href="css/custom.css"> <!-- Custom Style -->
+        <link rel="stylesheet" href="css/media.css"> <!-- Media -->
+        <link rel="stylesheet" href="css/animate.min.css"> <!-- Animate.css -->
+        
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
         
     </head>
     
     
-    <body>        
+    <body>      
+       
+        <!-- Start Header -->  
         
+        <header class="relative back-size">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row clear">                        
+                        <nav>
+                           <a href="#" class="brand left fs-1 col-12 col-3-m"><span class="main-color">K</span>oala</a>
+                            <ul class="right none block-m">
+                                <li class="inline-block"><a href="#">Home</a></li>
+                                <li class="inline-block" data-link="about"><a href="#">About</a></li>
+                                <li class="inline-block" data-link="testimonials"><a href="#">Testimonials</a></li>
+                                <li class="inline-block" data-link="portfolio"><a href="#">Portfolio</a></li>
+                                <li class="inline-block" data-link="contact"><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="content text-center">
+                        <h1>Web Design &amp; Developer</h1>
+                        <p class="typed typed1"></p>
+                        <p class="typed typed2"></p>
+                        <p class="typed typed3"></p>
+                        <i class="fa fa-chevron-down fa-2x absolute transition"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
         
+        <!-- End Header -->
+        
+        <!-- Start About -->
+        
+        <section id="about" class="section-padding container text-center">            
+                <div class="row clear">
+                    <h2 class="wow fadeIn">About <span class="main-color">Us</span></h2>
+                </div>
+                <div class="row clear pad-top-10 pad-bottom-20">
+                    <img src="images/mockup.jpg" alt="MockUp" class="img-fluid wow lightSpeedIn">
+                </div>
+                <div class="row clear">
+                    <p class="wow fadeIn">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel hendrerit felis.
+                    </p>
+                </div>            
+        </section>
+        
+        <!-- End About -->
+        
+        <!-- Start Why Choose Us -->
+        
+        <section class="wcu section-padding">
+            <div class="container text-center">
+                <div class="row clear">
+                    <div class="col-6-l col-3-xl wow slideInLeft">
+                        <i class="fa fa-check fa-2x pad-bottom-10 transition"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet velit non urna vulputate convallis et eget ligula. Fusce eu commodo ante. Donec turpis lectus, volutpat quis leo at.</p>
+                    </div>
+                    <div class="col-6-l col-3-xl wow slideInRight" data-wow-delay=".2s">
+                        <i class="fa fa-diamond fa-2x pad-bottom-10 transition"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet velit non urna vulputate convallis et eget ligula. Fusce eu commodo ante. Donec turpis lectus, volutpat quis leo at.</p>
+                    </div>
+                    <div class="col-6-l col-3-xl wow slideInLeft" data-wow-delay=".4s">
+                        <i class="fa fa-cloud fa-2x pad-bottom-10 transition"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet velit non urna vulputate convallis et eget ligula. Fusce eu commodo ante. Donec turpis lectus, volutpat quis leo at.</p>
+                    </div>
+                    <div class="col-6-l col-3-xl wow slideInRight" data-wow-delay=".6s">
+                        <i class="fa fa-wrench fa-2x pad-bottom-10 transition" data-wow-delay=".2s"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet velit non urna vulputate convallis et eget ligula. Fusce eu commodo ante. Donec turpis lectus, volutpat quis leo at.</p>
+                    </div>
+                </div>               
+                
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Why Choose Us -->
+        
+        <!-- Start Testimonials -->
+        
+        <section id="testimonials" class="back-size text-center">
+            <div class="overlay section-padding">
+                <div class="container">
+                    <h2 class="fs-1 wow zoomIn">What Our Clients Say</h2>
+                    <div class="row clear pad-top-10 names">
+                        <span class="fs-4 name-active" data-click="one">Hazem</span>
+                        <span class="fs-4" data-click="two">Ahmed</span>
+                        <span class="fs-4" data-click="three">Osama</span>
+                        <span class="fs-4" data-click="four">Jehad</span>
+                    </div>
+                    <div class="content">
+                        <div class="row clear pad-top-30 testim active" id="one">
+                            <p>My Name Is <span class="main-color">Hazem</span> And I Love Your Services And Youe Site Too, All The Best</p>
+                        </div>
+                        <div class="row clear pad-top-30 testim" id="two">
+                            <p>My Name Is <span class="main-color">Ahmed</span> And I Love Your Services And Youe Site Too, All The Best</p>
+                        </div>
+                        <div class="row clear pad-top-30 testim" id="three">
+                            <p>My Name Is <span class="main-color">Osama</span> And I Love Your Services And Youe Site Too, All The Best</p>
+                        </div>
+                        <div class="row clear pad-top-30 testim" id="four">
+                            <p>My Name Is <span class="main-color">Jehad</span> And I Love Your Services And Youe Site Too, All The Best</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Testimonials -->
+        
+        <!-- Start Portfolio -->
+        
+        <section id="portfolio" class="section-padding ">
+           <div class="container">
+               <div class="row clear">
+                   <div class="col-8 col-6-m col-3-l oro">
+                       <figure class="snip1511">
+                          <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample17.jpg" alt="sample17"/></div>
+                          <figcaption>
+                            <h4>Will Barrow</h4>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                   </div>
+                   <div class="col-8 col-6-m col-3-l oro">
+                    <figure class="snip1511">
+                      <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample6.jpg" alt="sample6" /></div>
+                      <figcaption>
+                        <h4>Ruby Von Rails</h4>
+                      </figcaption>
+                      <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="col-8 col-6-m col-3-l oro">
+                    <figure class="snip1511">
+                      <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample1.jpg" alt="sample1" /></div>
+                      <figcaption>
+                        <h4>Piff Jenkins</h4>
+                      </figcaption>
+                      <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="col-8 col-6-m col-3-l oro">
+                    <figure class="snip1511">
+                      <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample2.jpg" alt="sample2" /></div>
+                      <figcaption>
+                        <h4>Indigo Violet</h4>
+                      </figcaption>
+                      <a href="#"></a>
+                    </figure>
+                </div>
+               </div>
+           </div>
+        </section>
+        
+        <!-- End Portfolio -->
+        
+        <!-- Start Footer -->
+        
+        <footer id="contact" class="back-size text-center">
+            <div class="overlay section-padding">
+                <div class="container">
+                    <div class="content">
+                        <h3 class="pad-bottom-30 wow zoomIn">Contact <span class="main-color">Us</span></h3>
+                        <form>
+                           <div class="row clear">
+                               <div class="col-12 col-6-m wow slideInLeft">
+                                    <input type="text" placeholder="User Name..">
+                                    <input type="password" placeholder="Password..">
+                                    <input type="text" placeholder="Email..">
+                                </div>
+                                <div class="col-12 col-6-m wow slideInRight">
+                                    <textarea placeholder="Your Message.."></textarea>
+                                    <input type="submit" value="Send">  
+                                </div>
+                                                   
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+        </footer>
+        <div class="final text-center">CopyRight &copy; All Reserved To <span class="main-color">Tetsu.Inc</span></div>
+        
+        <!-- End Footer -->
         
         <script src="js/jquery-1.12.3.min.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/plugin.js"></script>
     </body>
     
